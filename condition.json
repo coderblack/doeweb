@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "events": [
+        {
+          "eventParam": {
+            "eventId": "e1",
+            "properties": {
+              "p1": "v1"
+            },
+            "windowEnd": "2022-08-22 17:00:00",
+            "windowStart": "2022-08-01 16:00:00"
+          }
+        },
+        {
+          "eventParam": {
+            "eventId": "e2",
+            "properties": {
+              "p2": "v2"
+            },
+            "windowEnd": "2022-09-22 14:00:00",
+            "windowStart": "2022-07-01 12:00:00"
+          }
+        }
+      ],
+      "type": "or"
+    },
+    {
+      "eventParam": {
+        "eventId": "e3",
+        "properties": {
+          "p2": "v2"
+        },
+        "windowEnd": "2022-09-22 14:00:00",
+        "windowStart": "2022-07-01 12:00:00"
+      }
+    }
+  ],
+  "type": "and"
+}

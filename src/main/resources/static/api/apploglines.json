@@ -1,0 +1,63 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": 8,
+  "data": [
+    {
+      "id": 1,
+      "logtype": "通用行为日志",
+      "logserver": "doitedu-logserver-01",
+      "dt": "2022-07-15",
+      "lines": "120000"
+    },
+    {
+      "id": 2,
+      "logtype": "通用行为日志",
+      "logserver": "doitedu-logserver-02",
+      "dt": "2022-07-15",
+      "lines": "130000"
+    },
+    {
+      "id": 3,
+      "logtype": "通用行为日志",
+      "logserver": "doitedu-logserver-03",
+      "dt": "2022-07-15",
+      "lines": "150000"
+    },
+    {
+      "id": 4,
+      "logtype": "通用行为日志",
+      "logserver": "doitedu-logserver-04",
+      "dt": "2022-07-15",
+      "lines": "110000"
+    },
+    {
+      "id": 5,
+      "logtype": "通用行为日志",
+      "logserver": "doitedu-logserver-05",
+      "dt": "2022-07-15",
+      "lines": "140000"
+    },
+    {
+      "id": 6,
+      "logtype": "通用行为日志",
+      "logserver": "doitedu-logserver-06",
+      "dt": "2022-07-15",
+      "lines": "120000"
+    },
+    {
+      "id": 7,
+      "logtype": "通用行为日志",
+      "logserver": "doitedu-logserver-07",
+      "dt": "2022-07-15",
+      "lines": "150000"
+    },
+    {
+      "id": 8,
+      "logtype": "通用行为日志",
+      "logserver": "doitedu-logserver-08",
+      "dt": "2022-07-15",
+      "lines": "160000"
+    }
+  ]
+}

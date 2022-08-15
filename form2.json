@@ -1,0 +1,66 @@
+{
+  "action_conditions": {
+    "events": [
+      {
+        "eventParam": {
+          "eventId": "addcart",
+          "properties": [
+            {
+              "prop": "1",
+              "op": "=",
+              "value": "1"
+            }
+          ],
+          "windowStart": "2022-08-01 00:00:00",
+          "windowEnd": "2022-08-31 00:00:00"
+        }
+      },
+      {
+        "eventParam": {
+          "eventId": "addcart",
+          "properties": [
+            {
+              "prop": "1",
+              "op": "=",
+              "value": "1"
+            }
+          ],
+          "windowStart": "2022-08-01 00:00:00",
+          "windowEnd": "2022-08-31 00:00:00"
+        }
+      }
+    ],
+    "type": "and"
+  },
+  "seq_conditions": [
+    {
+      "eventId": "addcart",
+      "properties": [
+        {
+          "prop": "1",
+          "op": "=",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "eventId": "pageview",
+      "properties": [
+        {
+          "prop": "pageview",
+          "op": "gt",
+          "value": "22"
+        }
+      ]
+    },
+    {
+      "properties": [
+        {
+          "prop": "2",
+          "op": "ge",
+          "value": "33"
+        }
+      ]
+    }
+  ]
+}

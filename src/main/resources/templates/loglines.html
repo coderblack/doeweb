@@ -1,0 +1,24 @@
+
+<!doctype html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>数据质量监控</title>
+</head>
+<body>
+<h1 align="center">日志服务器上的日志行数信息</h1>
+<table  align="center"  style="border: 1px solid darkblue">
+    <tr style="border: 1px solid darkblue">
+        <th  style="border: 1px solid darkblue;font-size: 2em">日期</th>
+        <th  style="border: 1px solid darkblue;font-size: 2em">主机</th>
+        <th  style="border: 1px solid darkblue;font-size: 2em">日志类型</th>
+        <th  style="border: 1px solid darkblue;font-size: 2em">行数</th>
+    </tr>
+    <tr th:each="ele:${datas}" style="border: 1px solid darkblue">
+        <td th:text="${ele.date}" style="border: 1px solid darkblue"></td>
+        <td th:text="${ele.host}" style="border: 1px solid darkblue"></td>
+        <td th:text="${ele.logType}" style="border: 1px solid darkblue"></td>
+        <td th:text="${ele.cnt}" style="border: 1px solid darkblue"></td>
+    </tr>
+</table>
+</body>
+</html>

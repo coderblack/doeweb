@@ -1,0 +1,271 @@
+{
+  "homeInfo": {
+    "title": "首页",
+    "href": "page/welcome-2.html?t=1"
+  },
+  "logoInfo": {
+    "title": "多易数据平台",
+    "image": "images/logo.png",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "日志接入质量",
+      "icon": "fa fa-address-book",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "商城日志接入",
+          "href": "",
+          "icon": "fa fa-home",
+          "target": "_self",
+          "child": [
+            {
+              "title": "app端",
+              "href": "page/table.html",
+              "icon": "fa fa-android",
+              "target": "_self"
+            },
+            {
+              "title": "小程序端",
+              "href": "page/table.html",
+              "icon": "fa fa-buysellads",
+              "target": "_self"
+            },
+            {
+              "title": "微信端",
+              "href": "page/table.html",
+              "icon": "fa fa-wechat",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "广告日志接入",
+          "href": "",
+          "icon": "fa fa-home",
+          "target": "_self",
+          "child": [
+            {
+              "title": "请求日志",
+              "href": "page/table.html",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "曝光点击日志",
+              "href": "page/table.html",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "推荐日志接入",
+          "href": "page/table.html",
+          "icon": "fa fa-window-maximize",
+          "target": "_self",
+          "child": [
+            {
+              "title": "引擎日志",
+              "href": "page/table.html",
+              "icon": "fa fa-codepen",
+              "target": "_self"
+            },
+            {
+              "title": "曝光点击日志",
+              "href": "page/table.html",
+              "icon": "fa fa-edge",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "数仓各层质量",
+      "icon": "fa fa-lemon-o",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "图标列表",
+          "href": "page/icon.html",
+          "icon": "fa fa-dot-circle-o",
+          "target": "_self"
+        },
+        {
+          "title": "图标选择",
+          "href": "page/icon-picker.html",
+          "icon": "fa fa-adn",
+          "target": "_self"
+        },
+        {
+          "title": "颜色选择",
+          "href": "page/color-select.html",
+          "icon": "fa fa-dashboard",
+          "target": "_self"
+        },
+        {
+          "title": "下拉选择",
+          "href": "page/table-select.html",
+          "icon": "fa fa-angle-double-down",
+          "target": "_self"
+        },
+        {
+          "title": "文件上传",
+          "href": "page/upload.html",
+          "icon": "fa fa-arrow-up",
+          "target": "_self"
+        },
+        {
+          "title": "富文本编辑器",
+          "href": "page/editor.html",
+          "icon": "fa fa-edit",
+          "target": "_self"
+        },
+        {
+          "title": "省市县区选择器",
+          "href": "page/area.html",
+          "icon": "fa fa-rocket",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "鹰眼实时营销",
+      "icon": "fa fa-lemon-o",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "规则创建",
+          "href": "",
+          "icon": "fa fa-home",
+          "target": "_self",
+          "child": [
+            {
+              "title": "规则模板1",
+              "href": "page/a.html",
+              "icon": "fa fa-android",
+              "target": "_self"
+            },
+            {
+              "title": "规则模板2",
+              "href": "page/b.html",
+              "icon": "fa fa-buysellads",
+              "target": "_self"
+            },
+            {
+              "title": "规则模板2",
+              "href": "page/c.html",
+              "icon": "fa fa-wechat",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "规则监控",
+          "href": "page/d.html",
+          "icon": "fa fa-home",
+          "target": "_self"
+        },
+
+
+        {
+          "title": "图标列表",
+          "href": "page/icon.html",
+          "icon": "fa fa-dot-circle-o",
+          "target": "_self"
+        },
+        {
+          "title": "图标选择",
+          "href": "page/icon-picker.html",
+          "icon": "fa fa-adn",
+          "target": "_self"
+        },
+        {
+          "title": "颜色选择",
+          "href": "page/color-select.html",
+          "icon": "fa fa-dashboard",
+          "target": "_self"
+        },
+        {
+          "title": "下拉选择",
+          "href": "page/table-select.html",
+          "icon": "fa fa-angle-double-down",
+          "target": "_self"
+        },
+        {
+          "title": "文件上传",
+          "href": "page/upload.html",
+          "icon": "fa fa-arrow-up",
+          "target": "_self"
+        },
+        {
+          "title": "富文本编辑器",
+          "href": "page/editor.html",
+          "icon": "fa fa-edit",
+          "target": "_self"
+        },
+        {
+          "title": "省市县区选择器",
+          "href": "page/area.html",
+          "icon": "fa fa-rocket",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "命名规范管理",
+      "icon": "fa fa-slideshare",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "多级菜单",
+          "href": "",
+          "icon": "fa fa-meetup",
+          "target": "",
+          "child": [
+            {
+              "title": "按钮1",
+              "href": "page/button.html?v=1",
+              "icon": "fa fa-calendar",
+              "target": "_self",
+              "child": [
+                {
+                  "title": "按钮2",
+                  "href": "page/button.html?v=2",
+                  "icon": "fa fa-snowflake-o",
+                  "target": "_self",
+                  "child": [
+                    {
+                      "title": "按钮3",
+                      "href": "page/button.html?v=3",
+                      "icon": "fa fa-snowflake-o",
+                      "target": "_self"
+                    },
+                    {
+                      "title": "表单4",
+                      "href": "page/form.html?v=1",
+                      "icon": "fa fa-calendar",
+                      "target": "_self"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "失效菜单",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        }
+      ]
+    }
+  ]
+}

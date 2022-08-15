@@ -1,0 +1,24 @@
+{
+  "account": "ubwmpm",
+  "appId": "cn.doitedu.yinew",
+  "appVersion": "2.8",
+  "carrier": "华为移动",
+  "deviceId": "jiyh-7666",
+  "deviceType": "iphone9",
+  "eventId": "pageLoad",
+  "ip": "10.20.101.61",
+  "latitude": 26.203333614135747,
+  "longitude": 111.59155555750836,
+  "netType": "4G",
+  "osName": "ios",
+  "osVersion": "9.0",
+  "platForm": "apple",
+  "properties": {
+    "pageId": "index"
+  },
+  "releaseChannel": "apple-store",
+  "resolution": "1280*768",
+  "sessionId": "HLSQPPUPCP",
+  "testGuid": 93,
+  "timeStamp": 1657768191829
+}

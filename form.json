@@ -1,0 +1,22 @@
+{
+  "rule_name": "",
+  "start_time": "2022-08-01 00:00:00",
+  "end_time": "2022-08-15 16:23:20",
+  "e1_eid": "addcart",
+  "e1_p": "1",
+  "e1_op": "=",
+  "e1_v": "1",
+  "e2_eid": "producetfx",
+  "e2_p": "1",
+  "e2_op": "gt",
+  "e2_v": "2",
+  "seq_2_eid": "addcart",
+  "seq_2_p": "pageview",
+  "seq_2_op": "gt",
+  "seq_2_v": "2",
+  "modules": "1",
+  "seq_3_eid": "productdz",
+  "seq_3_p": "2",
+  "seq_3_op": "ge",
+  "seq_3_v": "3"
+}
